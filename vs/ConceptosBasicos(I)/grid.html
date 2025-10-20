@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Qué es CSS Grid?</title>
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>¿Qué es CSS Grid?</h1>
+    <p>CSS Grid es un sistema de diseño bidimensional que permite organizar elementos en filas y columnas. Es ideal para crear layouts flexibles y ordenados sin necesidad de usar floats o posicionamiento manual.</p>
+
+    <pre><code>&lt;div class="grid"&gt;
+  &lt;div&gt;Elemento 1&lt;/div&gt;
+  &lt;div&gt;Elemento 2&lt;/div&gt;
+  &lt;div&gt;Elemento 3&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+    <p><strong>Explicación rápida:</strong></p>
+    <ul>
+      <li><code>display: grid;</code>: Activa el sistema de cuadrícula.</li>
+      <li><code>grid-template-columns: repeat(3, 1fr);</code>: Crea tres columnas del mismo ancho.</li>
+      <li><code>gap: 20px;</code>: Añade espacio entre los elementos.</li>
+    </ul>
+
+    <div class="grid-demo">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+
+    <p class="curiosidad">🧠 Curiosidad: ¡Puedes reorganizar los elementos visualmente sin cambiar el HTML, solo con CSS!</p>
+
+    <a href="index.html" class="boton">Volver al inicio</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+ .bordecillo {
+    display: grid;
+    height: 400px;
+    width: 900px;
+    grid-template-columns: repeat(5, 4fr);
+    border: 2px solid;
+    gap: 20px;
+    border-radius: 8px;
+ }
+div {
+      border-radius: 8px;
+}
+
+ .izquierda {
+    display: grid;
+    grid-template-rows: repeat(2, 4fr);
+    gap: 20px;
+
+
+ }
+
+ .caja1 {
+    background-color: rgb(64, 30, 255);
+    height: 250px;
+    width: 600px;
+
+   .caja2 {
+    background-color: rgb(255, 30, 30);
+
+   }

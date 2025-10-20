@@ -1,0 +1,67 @@
+.pagina-principal {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://w0.peakpx.com/wallpaper/492/652/HD-wallpaper-lines-of-html-codes.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  text-align: center;
+  background-color: rgba(188, 236, 234, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 4px double #00ffff; /* Reborde doble en color cian */
+}
+
+
+.titulo {
+  color: #140202ad; /* Color cian brillante */
+  margin-bottom: 30px;
+  text-shadow: 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff;
+}
+
+
+.grid-botones {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas: 
+    "boton1 boton2"
+    "boton4 boton3";
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.boton:nth-child(1) { grid-area: boton1; }
+.boton:nth-child(2) { grid-area: boton2; }
+.boton:nth-child(3) { grid-area: boton3; }
+.boton:nth-child(4) { grid-area: boton4; }
+
+
+.boton {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  background-color: #4A90E2;
+  border: 1px solid #4effff96;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background-color: #357ABD;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.enlace-extra {
+  margin-top: 20px;
+}
