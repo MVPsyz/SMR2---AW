@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Estructura de un index.html</title>
+  <link rel="stylesheet" href="pagina1.css">
 </head>
-<body style="margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; background: linear-gradient(to right, #ffecd2, #fcb69f); display: flex; justify-content: center; align-items: center; min-height: 100vh;">
- <!-- Como en la anterior página, se aplica un style a body, con múltiples atributos -->
-  <div style="background-color: white; padding: 40px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); max-width: 800px;">
-    <h1 style="color: #333; margin-bottom: 20px;">¿Qué es un index.html?</h1>
-    <p style="color: #555; line-height: 1.6;">El archivo <code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">index.html</code> es la página principal de un sitio web. Es lo primero que se carga cuando visitas un dominio. A continuación te mostramos su estructura básica:</p>
-    <!-- El p es para poner un texto normal -->
-    <pre style="background-color: #f4f4f4; padding: 15px; border-radius: 8px; overflow-x: auto;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">&lt;!DOCTYPE html&gt;
+<body class="body-layout">
+  <div class="card">
+    <h1 class="card-title">¿Qué es un index.html?</h1>
+    <p class="card-text">
+      El archivo <code class="inline-code">index.html</code> es la página principal de un sitio web. Es lo primero que se carga cuando visitas un dominio. A continuación te mostramos su estructura básica:
+    </p>
+    <pre class="code-block">
+      <code class="inline-code">
+&lt;!DOCTYPE html&gt;
 &lt;html lang="es"&gt;
   &lt;head&gt;
     &lt;meta charset="UTF-8"&gt;
@@ -21,18 +24,16 @@
     &lt;p&gt;Este es el contenido principal.&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
-<!-- Pre code sirve para escribir código en un cuadro de texto, es decor, para que se muestre en pantalla y no interfiera en la página web -->
-
-    <p style="color: #555; line-height: 1.6;"><strong>Explicación rápida:</strong></p>
+      </code>
+    </pre>
+    <p class="card-text"><strong>Explicación rápida:</strong></p>
     <ul>
-      <li><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">&lt;!DOCTYPE html&gt;</code>: Define el tipo de documento (HTML5).</li>
-      <li><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">&lt;html&gt;</code>: Contenedor principal de todo el contenido HTML.</li>
-      <li><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">&lt;head&gt;</code>: Contiene metadatos, título, enlaces a estilos, etc.</li>
-      <li><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">&lt;body&gt;</code>: Contiene el contenido visible de la página.</li>
+      <li><code class="inline-code">&lt;!DOCTYPE html&gt;</code>: Define el tipo de documento (HTML5).</li>
+      <li><code class="inline-code">&lt;html&gt;</code>: Contenedor principal de todo el contenido HTML.</li>
+      <li><code class="inline-code">&lt;head&gt;</code>: Contiene metadatos, título, enlaces a estilos, etc.</li>
+      <li><code class="inline-code">&lt;body&gt;</code>: Contiene el contenido visible de la página.</li>
     </ul>
-<!-- Ul y los li sirven para hacer listas -->
-    <a href="index.html" style="display: inline-block; margin-top: 20px; text-decoration: none; color: white; background-color: #e67e22; padding: 10px 20px; border-radius: 8px; transition: background-color 0.3s ease;">Volver al inicio</a>
+    <a href="index.html" class="btn-back">Volver al inicio</a>
   </div>
 </body>
 </html>

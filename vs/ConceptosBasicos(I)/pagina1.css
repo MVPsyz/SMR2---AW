@@ -1,0 +1,64 @@
+/* Layout general */
+.body-layout {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Tarjeta central */
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+}
+
+/* Título */
+.card-title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Texto general */
+.card-text {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Código en línea */
+.inline-code {
+  background-color: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Bloque de código */
+.code-block {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* Botón */
+.btn-back {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #e67e22;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #cf711f;
+}
